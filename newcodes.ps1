@@ -1,0 +1,3 @@
+$report = Get-computerinfo   | Select Csname, WindowsVersion, OSHardwareAbstractionLayer 
+
+$report | ConvertTo-Html | Out-File "C:\Reports\report.html"
