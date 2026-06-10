@@ -1,1 +1,2 @@
 Get-computerInfo | Select-Object CsName, WindowsVersion, OsBuildNumber, CsTotalPhysicalMemory, BiosVersion
+
